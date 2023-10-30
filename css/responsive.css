@@ -1,0 +1,150 @@
+@media (min-width: 0px) and (max-width: 575.98px) { 
+
+/* ============== menu css part start =============== */
+.main_menu{
+    padding: 5px 0;
+}
+.main_menu .menu_logo{
+    width: 150px;
+
+}
+
+.main_menu ul{
+    align-items: center;
+    background-color: #007F5F;
+    border-radius: 17px;
+    gap: 0px
+    ;
+}
+.main_menu ul li a{
+    color: #fff !important;
+}
+.main_menu ul li a:hover{
+    color: #fff !important;
+}
+
+.menu_btn{
+    text-align: center;
+}
+
+.menu_btn a {
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 9px;
+	font-size: 14px;
+}
+
+.menu_btn_icon span{
+    color: #007F5F;
+}
+.navbar-toggler {
+	color: #007F5F;
+}
+
+/* -------------- menu css part end ---------------- */
+/* ============== banner css part start =============== */
+
+#banner {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#banner h1 {
+	width: 100%;
+	font-size: 30px;
+}
+#banner p {
+	width: 100%;
+}
+
+#banner .banner_btn a {
+	width: 152px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+    border-radius: 10px;
+}
+
+#banner .banner_search {
+	width: 100%;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+.banner_search .search_btn a {
+	width: 65px;
+	height: 60px;
+}
+/* -------------- banner css part end ---------------- */
+/* ============== Travel Benefit css part start =============== */
+#travel_benefit {
+	padding: 100px 0;
+}
+
+.trevel_head p {
+	width: 100%;
+}
+
+#travel_benefit .travel_cards {
+	width: 100%;
+	margin-left: 0;
+}
+/* -------------- Travel Benefit css part end ---------------- */
+/* ============== Popular Destination css part start =============== */
+.popular_destination_head p {
+	width: 100%;
+}
+
+.popular_slider .slider_text p {
+	width: 100%;
+}
+/* -------------- Popular Destination css part end ---------------- */
+/* ============== conunter css part start =============== */
+#counter {
+	padding: 100px 0;
+	background: rgba(30, 30, 30, 0.05);
+}
+
+#counter .counter_content h2 {
+	width: 100%;
+	font-size: 40px;
+}
+#counter .counter_content p {
+	width: 100%;
+}
+.counter_content .counter_content_list ul li .text_one {
+	width: 100%;
+}
+
+.counter_content .counter_content_btn a {
+	padding: 12px 34px;
+}
+
+.counter_content .counter_content_btn{
+	margin-bottom: 20px;
+}
+/* -------------- conunter css part end ---------------- */
+/* ============== Selected Destination css part start =============== */
+#selected_destination {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+/* -------------- Selected Destination css part end ---------------- */
+/* ============== menu css part start =============== */
+
+/* -------------- menu css part end ---------------- */
+
+}
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { }
