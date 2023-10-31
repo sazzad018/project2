@@ -51,45 +51,6 @@ var swiper = new Swiper(".slider_content", {
   },
   centeredSlides: true,
 });
-
-
-
-jQuery(document).ready(function () {
-  //initialize swiper when document ready
-  var swiper = new Swiper(".slider_content", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    loop: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction:false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true
-    },
-    centeredSlides: true,
-  breakpoints: {  
-    '480': {
-      slidesPerView: 1,
-      spaceBetween: 0,},
-    '@640': {
-      slidesPerView: 1,
-      spaceBetween: 50, },
-  },
-    // Optional parameters   
-     freeMode: true,
-    loop: false,
-    scrollbar: {
-        el: '.swiper-scrollbar',
-        hide: true,},
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev', },
-
-})
-
-});
 //----------- counter part
 
 $('.count').counterUp({
