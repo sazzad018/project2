@@ -130,7 +130,88 @@
 	padding-bottom: 0px;
 }
 
+#selected_destination .selected_destination_head h2 {
+	width: 100%;
+	font-size: 30px;
+}
+#selected_destination .selected_destination_head p {
+	width: 100%;
+}
+#selected_destination .selected_destination_btn a {
+	width: 150px;
+	height: 44px;
+	border-radius: 10px;
+	font-size: 14px;
+	margin-bottom: 20px;
+	background-color: #007F5F;
+}
+#selected_destination .selected_destination_btn a::after{
+	display: none;
+}
+#selected_destination .selected_destination_btn a::before{
+	display: none;
+}
+#selected_destination .destination_img_two {
+	margin-bottom: 0;
+}
+#selected_destination .destination_location {
+	display: none;
+	width: 100%;
+}
+#selected_destination .selected_destination_head_two h2 {
+	width: 100%;
+	font-size: 30px;
+	margin-top: 50px;
+	line-height: 50px;
+}
+#selected_destination .selected_destination_head_two p {
+	width: 100%;
+}
 
+#selected_destination .destination_list_one {
+	display: flex;
+	gap: 0;
+	flex-direction: column;
+}
+
+#selected_destination .destination_list_one ul li {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: var(--poppins);
+	color: var(--paragraph_color);
+	margin-bottom: 15px;
+	display: flex;
+}
+
+#selected_destination .selected_destination_head_three h2 {
+	width: 100%;
+	font-size: 30px;
+	line-height: 50px;
+}
+
+#selected_destination .selected_destination_head_three p {
+	width: 100%;
+}
+#selected_destination .accoedi_w {
+	width: 100%;
+}
+
+#selected_destination .destination_popup ul {
+	position: relative;
+	left: 0;
+}
+#explore_destination .explore_head h2 {
+	font-size: 30px;
+}
+#explore_destination .explore_head p {
+	width: 100%;
+}
+
+#explore_destination .nav-tabs button {
+	font-size: 12px;
+	width: 100%;
+	margin-bottom: 20px;
+}
 /* -------------- Selected Destination css part end ---------------- */
 /* ============== menu css part start =============== */
 
