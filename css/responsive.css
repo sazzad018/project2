@@ -212,12 +212,76 @@
 	width: 100%;
 	margin-bottom: 20px;
 }
-/* -------------- Selected Destination css part end ---------------- */
-/* ============== menu css part start =============== */
 
-/* -------------- menu css part end ---------------- */
+#explore_destination .card {
+	width: 100% !important;
+}
+
+#explore_destination .card .card_img {
+	width: 100%;
+}
+
+#explore_destination .card .card_text p {
+	width: 100%;
+}
+
+#explore_destination .card .card_text h2 {
+	font-size: 18px;
+}
+
+#explore_destination .card .location {
+	font-size: 17px;
+}
+/* -------------- Selected Destination css part end ---------------- */
+/* ============== testimonial css part start =============== */
+.testimonial_photo {
+	display: none;
+}
+
+.testimonial_part {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+#testimonial {
+	height: 350px;
+}
+/* -------------- testimonial css part end ---------------- */
+/* ============== subscribe css part start =============== */
+
+#subscribe {
+	padding: 100px 0;
+}
+#subscribe .sub_head h1 {
+	width: 100%;
+}
+
+#subscribe .sub_head p {
+	width: 100%;
+}
+
+#subscribe .sub_input {
+	width: 100%;
+	padding: 1px 1px 1px 14px;
+	background: none;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#subscribe .sub_input input {
+	width: 100%;
+	border-radius: 10px;
+}
+
+#subscribe .sub_input button {
+	padding: 20px 25px;
+	background-color: red;
+	margin-top: 20px;
+}
+/* -------------- subscribe css part end ---------------- */
 
 }
+
 
 
 
