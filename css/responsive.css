@@ -1,5 +1,9 @@
 @media (min-width: 0px) and (max-width: 575.98px) { 
 
+	.top_btn {
+		width: 35px;
+		height: 35px;
+	}
 /* ============== menu css part start =============== */
 .main_menu{
     padding: 5px 0;

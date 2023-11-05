@@ -69,3 +69,27 @@ $('.testimonial_slider').slick({
   pauseOnHover:false,
   dots: true
 });
+
+
+//----------- top_btn part
+
+
+let top_btn =document.querySelector('.top_btn')
+
+window.addEventListener('scroll',()=> {
+  let scrolling = this.scrollY
+
+  if(scrolling > 200){
+    top_btn.classList.add('top_active')
+  }
+  else{
+    top_btn.classList.remove('top_active')
+  }
+})
+
+top_btn.addEventListener('click',()=>{
+  window.scrollTo({
+    top:0,
+    behavior: 'smooth',
+  })
+})

@@ -54,6 +54,45 @@ ol {
     color: var(--brand_color);
 } */
 /* -------------- common css part end ---------------- */
+
+.top_btn {
+    width: 50px;
+    height: 50px;
+    background: var(--brand_color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    z-index: 999;
+    bottom: 10%;
+    right: 5%;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+
+.top_active{
+    visibility: visible;
+    animation: top_btn 1s;
+}
+
+@keyframes top_btn{
+    from {
+        bottom: -20%;
+        opacity: 0;
+    }
+    to{
+        bottom: 10%;
+        opacity: 1;
+    }
+}
+
+.top_btn:hover{
+    background: transparent;
+    border: 1px solid var(--brand_color);
+    color: var(--brand_color);
+}
 /* ============== menu css part start =============== */
 .main_menu {
     padding: 40px 0;
@@ -1243,3 +1282,4 @@ footer .footer_content a:hover{
     color: var(--brand_color);
 }
 /* -------------- footer css part end ---------------- */
+
